@@ -1,4 +1,3 @@
-
 // pages/logs/logs.js
 var carts = require('../../utils/goods.js')
 Page({
@@ -49,7 +48,7 @@ Page({
     
     this.data.carts[index].isSelect = !this.data.carts[index].isSelect;    //价钱统计
     if (this.data.carts[index].isSelect) {
-   
+      
       this.data.totalMoney = this.data.totalMoney + (this.data.carts[index].money * this.data.carts[index].count);
     } else {
       this.data.totalMoney = this.data.totalMoney - (this.data.carts[index].money * this.data.carts[index].count);

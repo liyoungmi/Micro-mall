@@ -8,4 +8,9 @@
       <!-- 加号 -->  
       <text class="sign {{count >= 10 ? 'disabled' : 'normal'}}" bindtap="addCount" data-index="{{index}}">+</text>  
   </view>  
+ 
 </template>
+
+
+
+

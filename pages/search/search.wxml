@@ -45,7 +45,7 @@
                 <text>搜索记录</text>
             </view>
             <view class="tags">
-                <text wx:for="{{history}}" wx:key="index" data-text="{{item}}" bindtap="keywordHandle">{{item}}</text>
+                <text wx:for="{{history}}" wx:key="index" data-text="{{item}}" bindtap="">{{item}}</text>
             </view>
         </view>
         <view class="title">

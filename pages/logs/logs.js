@@ -98,12 +98,6 @@ Page({
     } catch (e) {
       console.log(e)
     }
-
-    // wx.showToast({
-    //   title: '成功加入购物车~',
-    //   icon: 'success',
-    //   duration: 2000
-    // })
   },
   buyNow: function(){
     wx.showToast({

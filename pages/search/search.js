@@ -43,7 +43,7 @@ Page({
           console.log(title)       
           titleStr.push(title);
         } else if (position = 0){
-          console.log('出现则代表')
+          console.log('出现则代表没有商品')
         }   
       }
 

@@ -30,12 +30,11 @@
               <template is="quantity"  data="{{ ...item,index:index}}" /> 
           </view>
         </view>
- 
       </view> 
     </view>
     <view class="separate"></view>
   </view></scroll-view></view>
- <view class="bottom_total" hidden="{{hidden}}">
+  <view class="bottom_total" hidden="{{hidden}}">
   <view class="bottom_line"></view>
   <view class="row">
       <view  wx:if="{{!isAllSelect}}">

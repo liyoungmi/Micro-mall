@@ -18,27 +18,27 @@ Page({
     interval: 3000,
     duration: 800,
   },
-  addGoods: function (event) {  
+  // addGoods: function (event) {  
     
 
-    //存储数据
-    console.log(event.currentTarget.dataset.hi)
-    try {
-      // 同步接口立即写入
-      wx.setStorageSync("orderInfo", event.currentTarget.dataset.hi,)
-      console.log('写入value2成功')
-    } catch (e) {
-      console.log('写入value2发生错误')
-    }
+  //   //存储数据
+  //   console.log(event.currentTarget.dataset.hi)
+  //   try {
+  //     // 同步接口立即写入
+  //     wx.setStorageSync("orderInfo", event.currentTarget.dataset.hi,)
+  //     console.log('写入value2成功')
+  //   } catch (e) {
+  //     console.log('写入value2发生错误')
+  //   }
 
 
 
-      wx.showToast({
-        title: '成功加入购物车~',
-        icon: 'success',
-        duration: 2000
-      })
-  },
+  //     wx.showToast({
+  //       title: '成功加入购物车~',
+  //       icon: 'success',
+  //       duration: 2000
+  //     })
+  // },
 
   /**
    * 生命周期函数--监听页面加载

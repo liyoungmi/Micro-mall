@@ -14,7 +14,15 @@
       搜 索
   </view>
 </navigator>
+
+
+<navigator url='../scrollnav/scrollnav'>
 <view class='newGoods'>最近新品</view>
+</navigator>
+
+
+
+
   <view class='goods'>
    <view class="item" wx:for="{{showData}}" wx:key="id">  
       <navigator url="/pages/logs/logs?id={{item.id}}" class="title">  
@@ -33,3 +41,4 @@
     </view>
   </view>
 </view>
+
